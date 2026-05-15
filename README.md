@@ -1,5 +1,5 @@
-😀# Zotero AI Plugin (PaperNet)😀
-
+# Zotero AI Plugin (PaperNet)
+😀
 一个为 Zotero 7 设计的 AI 论文阅读助手插件。它可以在阅读 PDF 论文时自动提取文本并使用 AI 进行分析和问答。
 
 ## 功能特性
