@@ -1,0 +1,38 @@
+<linkset>
+  <html:link rel="localization" href="__addonRef__-preferences.ftl" />
+</linkset>
+<groupbox>
+  <label><html:h2 data-l10n-id="pref-title"></html:h2></label>
+  <hbox>
+    <html:label for="papernet-pref-api-key" data-l10n-id="pref-api-key"></html:label>
+    <html:input
+      type="password"
+      id="papernet-pref-api-key"
+      preference="apiKey"
+      style="flex: 1;"
+    />
+  </hbox>
+  <hbox>
+    <html:label for="papernet-pref-api-base-url" data-l10n-id="pref-api-base-url"></html:label>
+    <html:input
+      type="text"
+      id="papernet-pref-api-base-url"
+      preference="apiBaseUrl"
+      style="flex: 1;"
+    />
+  </hbox>
+  <hbox>
+    <html:label for="papernet-pref-model" data-l10n-id="pref-model"></html:label>
+    <html:input
+      type="text"
+      id="papernet-pref-model"
+      preference="model"
+      style="flex: 1;"
+    />
+  </hbox>
+  <checkbox
+    id="papernet-pref-auto-study"
+    preference="autoStudy"
+    data-l10n-id="pref-auto-study"
+  />
+</groupbox>
