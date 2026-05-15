@@ -1,0 +1,43 @@
+{
+  "name": "zotero-papernet",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "AI-powered paper reading assistant for Zotero",
+  "config": {
+    "addonName": "PaperNet",
+    "addonID": "papernet@assistant",
+    "addonRef": "papernet",
+    "addonInstance": "PaperNet",
+    "prefsPrefix": "extensions.zotero.papernet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/user/zotero-papernet.git"
+  },
+  "author": "PaperNet",
+  "homepage": "https://github.com/user/zotero-papernet",
+  "license": "AGPL-3.0-or-later",
+  "scripts": {
+    "start": "zotero-plugin serve",
+    "build": "zotero-plugin build && tsc --noEmit",
+    "lint:check": "prettier --check . && eslint .",
+    "lint:fix": "prettier --write . && eslint . --fix",
+    "release": "zotero-plugin release"
+  },
+  "dependencies": {
+    "zotero-plugin-toolkit": "^5.1.0-beta.13"
+  },
+  "devDependencies": {
+    "@zotero-plugin/eslint-config": "^0.6.7",
+    "eslint": "^9.39.2",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3",
+    "zotero-plugin-scaffold": "^0.8.2",
+    "zotero-types": "^4.1.0-beta.4"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "endOfLine": "lf"
+  }
+}
