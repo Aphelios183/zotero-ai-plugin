@@ -39,8 +39,8 @@ function getApiConfig() {
 
   return {
     apiKey,
-    baseUrl: baseUrl || "https://token-plan-cn.xiaomimimo.com/anthropic",
-    model: model || "mimo-v2.5-pro",
+    baseUrl: baseUrl || "https://api.anthropic.com",
+    model: model || "claude-3-5-sonnet-20241022",
   };
 }
 
